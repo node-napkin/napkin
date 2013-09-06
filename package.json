@@ -1,0 +1,24 @@
+{
+  "name":"napkin",
+  "version":"0.0.1",
+  "author":"John Nelson <jnleson11@gmail.com>",
+  "description":"Because I can't remember how to use all npm modules!",
+  "contributors": [
+    {
+      "name": "John Nelson",
+      "email": "jnelson11@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnymonster/napkin.git"
+  },
+  "keywords":[
+    "napkin",
+    "examples"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
