@@ -1,0 +1,1 @@
+Basic example of node events and prototype inheritance
