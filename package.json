@@ -14,7 +14,10 @@
     "url": "https://github.com/johnymonster/napkin.git"
   },
   "dependencies":{
-    "express":"*"
+    "express":"*",
+    "async":"*",
+    "jackpot":"*",
+    "simple-oauth2":"*"
   },
   "keywords":[
     "napkin",
