@@ -34,28 +34,36 @@ var numReqs = 20;
 var options = options_npr;
 var orig_path = options.path; // we will be adding numbers to this to make it unique
 
+var parallel = [];
 for (var i=0; i<numReqs; i++) {
+  parallel.push(function(callback){
+    options.path = orig_path + '?num=' + i;
+    console.time(options.path);
+    console.time('data');
+    http.request(options, function(response) {
+      response.setEncoding('utf8');
 
-  options.path = orig_path + '?num=' + i;
-  console.time(options.path);
+      response.on('data', function (chunk) {
+        //console.log(' BODY: ' + chunk);
+        //console.log('...' + response.req.path);
+        console.timeEnd('data');
 
-  http.request(options, function(response) {
-    response.setEncoding('utf8');
+      });
 
-    response.on('data', function (chunk) {
-      //console.log(' BODY: ' + chunk);
-      //console.log('...' + response.req.path);
-    });
+      response.on('error', function(err) {
+        console.log(err);
+      });
 
-    response.on('error', function(err) {
-      console.log(err);
-    });
-
-    response.on('end', function() {
-      //console.log('response ended' + response.req.path);
-      console.timeEnd(response.req.path);
-    });
-  }).end();
+      response.on('end', function() {
+        //console.log('response ended' + response.req.path);
+//        console.timeEnd(response.req.path);
+        callback(null);
+      });
+    }).end();
+  });
 }
 
-console.log('done');
+console.time('start all');
+async.parallel(parallel, function(err, results){
+  console.timeEnd('start all');
+});

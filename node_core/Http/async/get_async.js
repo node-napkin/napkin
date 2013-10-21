@@ -8,7 +8,8 @@
  **/
 
 var http = require('http')
-  , async = require('async');
+  , async = require('async')
+  , uuid  = require('uuid');
 
 http.globalAgent.maxSockets = 200;
 
@@ -16,7 +17,7 @@ var options_npr = {
   host: 'www.npr.org',
   port: 80,
   path: '/MIT.txt',
-  method: 'GET',
+  method: 'GET'
 };
 
 var options_node = {
@@ -30,7 +31,7 @@ var options_node = {
   //}
 };
 
-var numReqs = 500;
+var numReqs = 1;
 var options = options_npr;
 var orig_path = options.path; // we will be adding numbers to this to make it unique
 
@@ -38,7 +39,8 @@ var parallel = [];
 
 for (var i=0; i<numReqs; i++) {
   parallel.push(function(callback){
-    var localNum = i;
+//    var localNum = new Date().getTime();
+    var localNum = 1;
     options.path = orig_path + '?num=' + localNum;
     console.time(options.path);
     http.request(options, function(response) {
@@ -47,6 +49,7 @@ for (var i=0; i<numReqs; i++) {
       response.on('data', function (chunk) {
         //console.log(' BODY: ' + chunk);
         //console.log('...' + response.req.path);
+        callback(null,null);
       });
 
       response.on('error', function(err) {
@@ -56,7 +59,6 @@ for (var i=0; i<numReqs; i++) {
       response.on('end', function() {
         //console.log('response ended' + response.req.path);
         console.timeEnd(response.req.path);
-        callback(null,null);
       });
     }).end();
   });

@@ -1,0 +1,7 @@
+loggly:
+  level: ""
+  subdomain: ""
+  auth: ""
+  inputName: ""
+  inputToken: ""
+  json: ""

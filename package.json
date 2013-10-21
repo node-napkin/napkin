@@ -17,7 +17,20 @@
     "express":"*",
     "async":"*",
     "jackpot":"*",
-    "simple-oauth2":"*"
+    "simple-oauth2":"*",
+    "uuid":"*",
+    "underscore":"*",
+    "yaml":"*",
+    "config":"*",
+    "request":"*",
+    "winston":"*",
+    "winston-loggly":"*",
+    "winston-syslog":"*",
+    "ain2":"*"
+  },
+  "devDependencies":{
+    "mocha":"*",
+    "should":"*"
   },
   "keywords":[
     "napkin",
