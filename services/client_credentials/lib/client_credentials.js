@@ -14,7 +14,7 @@ Client.prototype.get_token = function(callback) {
     method: 'POST',
     headers: {
       'Authorization': this.hash()
-    },
+    }
   };
 
   console.log(options);

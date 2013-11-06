@@ -8,6 +8,7 @@ node_modules
 *.out
 *.pid
 *.gz
+development.yaml
 
 pids
 logs

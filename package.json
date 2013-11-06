@@ -26,7 +26,11 @@
     "winston":"*",
     "winston-loggly":"*",
     "winston-syslog":"*",
-    "ain2":"*"
+    "ain2":"*",
+    "hyperquest":"*",
+    "couchbase":"*",
+    "crawler":"*",
+    "simplecrawler":"*"
   },
   "devDependencies":{
     "mocha":"*",
