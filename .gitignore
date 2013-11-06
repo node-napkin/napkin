@@ -9,6 +9,7 @@ node_modules
 *.pid
 *.gz
 development.yaml
+runtime.json
 
 pids
 logs
