@@ -25,6 +25,7 @@ A compilation of services that I have come to use for various tasks, both cloud 
   - Poor documentation if any.
   - Says you can sign up for a free account, accept there are no links to the free account.
   - Free account signup located here: https://airbrake.io/account/new/Free
+  - Nodejs integration not in the knowledge base, need to search npm. https://npmjs.org/package/airbrake
 1. [Loggly](http://loggly.com) Not the biggest fan of this service, UI and message search is slow.
 
 ### Self managed
