@@ -20,7 +20,11 @@ A compilation of services that I have come to use for various tasks, both cloud 
 ## Log aggregation
 
 ### Cloud-based
-1. [Rollbar](http://www.rollbar.com) Focuses primarily on error logs, but can also agregate other messaging levels too.
+1. [Rollbar](http://www.rollbar.com) 
+  - Focuses primarily on error logs, but can also agregate other messaging levels too.
+  - Message throttling via nextTick or setInterval callback settings.
+  - Global error handler setup
+  - Express/Connect middleware
 1. [Airbrake](http://airbrake.io/) Boasts high throughput with a sparkly UI
   - Poor documentation if any.
   - Says you can sign up for a free account, accept there are no links to the free account.
