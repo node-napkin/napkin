@@ -1,4 +1,4 @@
-A compilation of services that I have come to use for various tasks, both cloud based and server related.
+A compilation of services that I have come to use for various tasks, both cloud based and server related. In addition to services/frameworks that I might want to use in the future
 
 
 ## Inbound mail processing
