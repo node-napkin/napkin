@@ -17,9 +17,14 @@ A compilation of services that I have come to use for various tasks, both cloud 
 1. [Couchbase](http://www.couchbase.com) Very fast and easily scales horrizontally.
 1. [Mogodb](http://mongodb.com) Master/Slave replication, lots of articles out there as to why you shouldn't use it. You decide.
 
-## Cloud-based logging services
+## Log aggregation
+
+### Cloud-based
 1. [Rollbar](http://www.rollbar.com) Focuses primarily on error logs, but can also agregate other messaging levels too.
 1. [Loggly](http://loggly.com) Not the biggest fan of this service, UI and message search is slow.
+
+## Self managed
+1. [Logstash](http://logstash.net/) Combine with the latest version of kibana and you really got something here
 
 ## Search
 1. [Elasticsearch](http://elasticsearch.org) I'm not sure what I would do without it
