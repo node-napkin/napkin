@@ -8,6 +8,7 @@ A compilation of services that I have come to use for various tasks, both cloud 
 1. [Flood.io](https://flood.io/)
 2. [Siege](http://www.joedog.org/siege-home/)
 3. [Vegeta](https://github.com/tsenart/vegeta)
+4. [Gatling](http://gatling-tool.org/)
 
 ## Application Monitoring
 1. [Newrelic](http://newrelic.com)
