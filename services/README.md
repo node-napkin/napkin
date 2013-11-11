@@ -21,6 +21,7 @@ A compilation of services that I have come to use for various tasks, both cloud 
 
 ### Cloud-based
 1. [Rollbar](http://www.rollbar.com) Focuses primarily on error logs, but can also agregate other messaging levels too.
+1. [Airbrake](http://airbrake.io/) Boasts high throughput with a sparkly UI
 1. [Loggly](http://loggly.com) Not the biggest fan of this service, UI and message search is slow.
 
 ### Self managed
