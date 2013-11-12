@@ -12,6 +12,7 @@ A compilation of services that I have come to use for various tasks, both cloud 
 
 ## Application Monitoring
 1. [Newrelic](http://newrelic.com)
+  - Even if you don't have any money, you can still benefit from their free account!
 
 ## Databases
 1. [Couchbase](http://www.couchbase.com) Very fast and easily scales horrizontally.
