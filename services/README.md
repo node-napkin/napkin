@@ -60,3 +60,11 @@ A compilation of services that I have come to use for various tasks, both cloud 
 ### Javascript
 1. [Istanbul](http://gotwarlost.github.io/istanbul/)
   - Without tests you will fail, without knowing what your testing, you will also fail!  Test, test, and get a coverage report!
+
+## Style guides
+1. [Airbnb Javascript](https://github.com/airbnb/javascript)
+
+## Hosted servers
+1. [Digital Ocean](https://www.digitalocean.com/)
+1. [Amazon EC2](http://aws.amazon.com/)
+1. [Rackspace](http://www.rackspace.com)
