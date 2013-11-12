@@ -53,6 +53,7 @@ A compilation of services that I have come to use for various tasks, both cloud 
 ## Search
 1. [Elasticsearch](http://elasticsearch.org) I'm not sure what I would do without it
 
-## Javascript code coverage
+## Code coverage
+### Javascript
 1. [Istanbul](http://gotwarlost.github.io/istanbul/)
   - Without tests you will fail, without knowing what your testing, you will also fail!  Test, test, and get a coverage report!
