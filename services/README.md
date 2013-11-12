@@ -1,4 +1,4 @@
-A compilation of services that I have come to use for various tasks, both cloud based and server related. In addition to services/frameworks that I might want to use in the future
+A compilation of services that I have come to use for various tasks, both cloud based and server related. In addition to services/frameworks that I might want to use in the future.  The majority of these services are for use with Nodejs related application, but some services can also work with other languages as well.
 
 
 ## Inbound mail processing
@@ -15,8 +15,13 @@ A compilation of services that I have come to use for various tasks, both cloud 
   - Even if you don't have any money, you can still benefit from their free account!
 
 ## Databases
+### NoSQL
 1. [Couchbase](http://www.couchbase.com) Very fast and easily scales horrizontally.
 1. [Mogodb](http://mongodb.com) Master/Slave replication, lots of articles out there as to why you shouldn't use it. You decide.
+
+### Relational
+1. [MySQL](http://mysql.com)
+1. [PostgreSQL](http://www.postgresql.org/)
 
 ## Log aggregation
 
