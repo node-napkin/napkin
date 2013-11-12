@@ -9,6 +9,7 @@ A compilation of services that I have come to use for various tasks, both cloud 
 1. [Log Aggregation](#log-aggregation)
 1. [Search](#search)
 1. [Code Coverage](#code-coverage)
+1. [Servers](#hosted-servers)
 
 ## Inbound mail processing
 1. [Mailgun](http://mailgun.com)
