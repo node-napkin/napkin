@@ -1,0 +1,6 @@
+{
+  "name": "highland-tests",
+  "dependencies": {
+    "highland": "~1.5.0"
+  }
+}
